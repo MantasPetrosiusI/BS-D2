@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <title>Favorite Music Albums</title>
 </head>
 <body>
@@ -15,6 +15,9 @@
         .card-body{
             height: 240px;
             text-align: center;
+        }
+        .collapse.navbar-collapse>ul>li a{
+            color:white;
         }
     </style>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
@@ -39,7 +42,7 @@
             </ul>
         </div>
     </nav>
-
+ 
     <h2 class="bg-light">About Me</h2>
     <div class="container" id="aboutMe" style="text-align: center; width: 400px;">
         <img src="https://media.licdn.com/dms/image/C5603AQGDXH_eN-nx-A/profile-displayphoto-shrink_200_200/0/1649677787681?e=1678924800&v=beta&t=kXJvI-85D97S7iDcwomKpHqfWi3r5yNQMMmLcmagkWQ" alt="me">
@@ -251,24 +254,119 @@
     </div>
     </div>
     </div>
-    <h2 class="mt-2 bg-light">Personal Favorite Artist</h2>
+    <h2 class="mt-2 bg-light" >Personal Favorite Artist</h2>
     <div class="container" id="favoriteArtist">
-        <div class="row-flow" style="display:flex;">
+        <div class="row-flow" style="display:flex; align-items: center; justify-content: center;">
             <div>
-            <img src="https://images.squarespace-cdn.com/content/5ac8997aaa49a16d3b6dfe3a/1584988742954-JB8H4IUPO5YENTRMZNDC/ReoNa_SWEET_HURT_promo_photo.jpg?content-type=image%2Fjpeg" alt="favoriteArtist" style="width:40vw; height: 50vh;">
+            <img src="https://images.squarespace-cdn.com/content/5ac8997aaa49a16d3b6dfe3a/1584988742954-JB8H4IUPO5YENTRMZNDC/ReoNa_SWEET_HURT_promo_photo.jpg?content-type=image%2Fjpeg" alt="favoriteArtist" style="width:50vw; height: 50vh; position: relative;">
         </div>
-        <div>
-            <iframe style="width:35vw; height: 50vh; margin-left: 5vw;" src="https://www.youtube.com/embed/haCJtSnfNEg" title="【SAO】ReoNa - ANIMA (Music Video YouTube EDIT ver.)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
+        <iframe style="position: absolute; margin-top: 22.5vh; width: 18vw; height: 12vh;" src="https://open.spotify.com/embed/track/2j1r3ubqqxuoTFaPVnTV1j?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div>
         
         <div>
-            <p style="width: 132vh; text-align: justify;">
+            <p style="width: 130vh; text-align: justify;">
                 The name of this Artist is ReoNa(real name "Elsa Kanzaki"), she is a japanese singer,cosplayer that mainly did song covers on her YouTube channel until she became a finalist in audition for anime opening for "Sword Art Online Alternative: Gun Gale Online" with the song "Pilgrim". However, I got to know about her work after she did another Sword Art Online opening called "ANIMA" which is till this day my favorite song. All I can say she has beautiful vocals and her love for her work shows when she sings. 
             </p>
         </div>
         
     </div>
+    <div class="container" id="tapestry" style>
+        <div class="row" >
+            <div class="col col-lg-3">
+              <img src="https://ourculturemag.com/wp-content/uploads/2021/08/KS055-Lunar-Vacation-Inside-Every-Fig-is-a-Dead-Wasp-3000x3000-1-1920x1920.jpeg" alt="..." style="max-width:250px; max-height: 250px;">
+            </div>
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/12/moin-moot-2.jpeg" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/04/Helvetia-Essential.jpeg" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/12/marias-cinema.jpg" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+            </div>
+            <div class="row">
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/12/hayley-williams-flowers.jpg" alt="..." style="max-width:250px; max-height: 250px; height: 250px;">  
+            </div>
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/12/small-black-cheap-dreams.jpeg" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/12/a3025677963_10.jpeg" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/12/a0962374226_10.jpeg" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+            </div>
+            <div class="row">
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/12/lost-horizons-in-quiet.jpeg" alt="..." style="max-width:250px; max-height: 250px;" >  
+            </div>
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/12/midwife-luminol.jpeg" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/12/Griff-One-Foot-in-Front-of-the-Other-Album-artwork-Credit-Kerry-Dean-Photo-Elizabeth-Fraser-Bell-Styling.jpg-1920x1920.jpg" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/12/backxwash-i-lie-here.jpeg" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/12/injury-reserve-phoenix.jpeg" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/08/foxing-draw-down-the-moon.jpeg" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/07/skirts-great-big-wild-oak.jpeg" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/12/harmony-woods-graceful-rage.jpeg" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/04/spiral-darkside.jpeg" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/01/four-tet-madlib-sound-ancestors-details.png" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/08/2MR-071-Kedr-Livanskiy-Cover_3000x3000-1920x1920.jpeg" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+            <div class="col col-lg-3">
+                <img src="https://ourculturemag.com/wp-content/uploads/2021/12/packs-take-the-cake.jpeg" alt="..." style="max-width:250px; max-height: 250px;">  
+            </div>
+        </div>
+          </div>
+    <div class="container" id="tapestry2">
+            <div class="row row-cols-4">
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+              <div class="col">Column</div>
+            </div>
+            
+          </div>
 </body>
 
 </html>
